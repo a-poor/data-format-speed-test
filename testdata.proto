@@ -1,0 +1,18 @@
+syntax = "proto2";
+
+package tutorial;
+
+message Row {
+    optional double col0 = 0;
+    optional double col1 = 1;
+    optional double col2 = 2;
+    optional double col3 = 3;
+    optional double col4 = 4;
+    optional double col5 = 5;
+    optional double col6 = 6;
+    optional double col7 = 7;
+}
+
+message Table {
+    repeated Row data = 0;
+}
